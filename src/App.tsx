@@ -3,8 +3,8 @@ import "./App.css";
 const App = () => {
   return (
     <>
-      <div className="m-0 p-1 w-full h-fit flex bg-white overflow-auto ">
-        <div className=" w-8/12 flex flex-col justify-start items-start p-2 m-0">
+      <div className="m-0 p-1 w-full h-fit md:flex md:flex-row bg-white overflow-auto ">
+        <div className=" w-full md:w-8/12 flex flex-col justify-start items-start p-2 m-0">
           <h1 className=" text-3xl text-black font-bold ">Mahesh Bhalerao</h1>
           <h1 className=" text-lg text-black font-semibold ">
             Front End Dev (ReactJS) + Cross Platform Mobile Application
@@ -82,7 +82,7 @@ const App = () => {
           </div>
         </div>
 
-        <div className=" w-4/12 flex flex-col justify-start items-start p-2 m-0 ">
+        <div className="w-full md:w-4/12 flex flex-col justify-start items-start p-2 m-0 ">
           <>
             <p>Pune, India, 411061</p>
             <h1 className=" text-lg text-black font-semibold ">
